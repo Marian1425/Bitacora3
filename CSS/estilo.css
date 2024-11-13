@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    font-size: 17px;
+} 
+html{
+    scroll-behavior: smooth;
+}
+
+main {
+    width: 1366px;
+    height: auto;
+    background-color: #B8CEC2;
+    margin: 0 auto;
+}
+
+header {
+    width: 1366px;
+    height: 320px;
+    background-color: #B8CEC2;
+    text-align: center;
+}
+
+nav{
+    width: 1366px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    background-color: #FDB3A4;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-family: "Montserrat Alternates", sans-serif;
+    transition: 1s;
+    transform: scale(1.2);
+}
+
+nav a:hover {
+    background-color: #D1DBCD;
+    transform: scale(1.2);
+}
+
+h1{
+    font-size: 38px;
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 14px;
+    font-family: "Dosis", sans-serif;
+}
+
+ul {
+    font-size: 18px;
+    font-family: "Dosis", sans-serif;
+}
+
+section{
+    width: 1366px;
+    height: auto;
+    background-color: #D1DBCD;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.titulo{
+    margin-left: 0 auto;
+    background-color: #B8CEC2;
+}
+
+.izquierda {
+    width: 550px;
+    height: auto;
+    float: left;
+    margin-left: 38px;
+}
+
+.derecha {
+    width: 700px;
+    height: auto;
+    float: left;
+    margin-left: 38px;
+}
+
+.textoiz {
+    width: 500px;
+    height: 900px;
+    background-color: #F8E6CE;
+    padding: 20px;
+    float: left;
+    font-size: 18px;
+    font-family: "Dosis", sans-serif;
+}
+
+.textode {
+    width: 600px;
+    height: auto;
+    background-color: #EBC8B4;
+    padding: 20px;
+    float: left;
+    font-size: 16px;
+    font-family: "Dosis", sans-serif;
+    margin-left: 50px;
+}
+
+.imagen {
+    width: 600px;
+    height: 350px;
+    border-top: 2px;
+    border-bottom: 2px;
+    float: left;
+    background-color: #EBC8B4;
+    text-align: center;
+    margin-left: 50px;
+}
+
+
+.resumen{
+    width: 1250px;
+    height: 200px;
+    font-family: "Montserrat Alternates", sans-serif;
+    background-color: #D1DBCD;
+    margin: auto;
+}
+
+
+.inicio-btn{
+    width: 200px;
+    padding: 10px 15px;
+    background-color: #FDB3A4;
+    color: aliceblue;
+    font-family: "Dosis", sans-serif;
+    border-radius: 10px;
+    position: fixed;
+    right: -90px;
+    bottom: 50px;
+    transition: .8s;
+}
+
+.inicio-btn:hover{
+    right: -10px;
+}
+.inicio-btn a{
+    color: white;
+}
+.cuadro{
+        width: 100px;
+        height: 100px;
+        background-color: #FDB3A4;
+        transform: scale(1);
+        border-radius: 50%;
+        overflow: hidden;
+        transition: .5s
+}
+
+table{
+    width: 400px;
+    text-align: center;
+    border-spacing: 1px;
+}
+
+thead{
+    background-color: aquamarine;
+    color: black;
+}
+
+tr:nth-child(odd){
+    background-color: #D1DBCD;
+}
+
+tr:nth-child(even){
+    background-color: #B8CEC2;
+}
+
+
+footer {
+    width: 1366px;
+    height: 320px;
+    background-color: #B8CEC2;
+    font-family: "Montserrat Alternates", sans-serif;
+}
